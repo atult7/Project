@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="42.776">
+    <testcase classname="Login" name="Successful registration of new user with valid credential" time="19.065">
+        <system-out>
+            <![CDATA[Given User Launch Chrome Browser............................................passed
+When User opens URL "https://outlook.office.com/mail/"......................passed
+And User enters Email as "sender01togo@outlook.com" and click next..........passed
+And user enters Password as "Sender@4321" and click next....................passed
+Then Click on Signin........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login" name="Composing mail with valid credential" time="23.195">
+        <system-out>
+            <![CDATA[Given User launch Chrome Browser............................................passed
+When User Opens URL "https://outlook.office.com/mail/"......................passed
+When User Enters Email as "sender01togo@outlook.com" and click next.........passed
+When user Enters Password as "Sender@4321" and click next...................passed
+And Click the Signin........................................................passed
+And User Click on New Message...............................................passed
+And Enter the mail..........................................................passed
+Then Click on send..........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

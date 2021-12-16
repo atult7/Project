@@ -1,0 +1,227 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-16T10:48:36.220Z",
+        "line": 3,
+        "name": "Successful registration of new user with valid credential",
+        "description": "",
+        "id": "login;successful-registration-of-new-user-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4277701700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launch Chrome Browser",
+            "match": {
+              "location": "stepDefinitions.Steps.user_Launch_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3145093500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens URL \"https://outlook.office.com/mail/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://outlook.office.com/mail/\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_opens_URL(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3226975400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Email as \"sender01togo@outlook.com\" and click next",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sender01togo@outlook.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_enters_Email_as_and_click_next(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3092830300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters Password as \"Sender@4321\" and click next",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sender@4321\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_enters_Password_as_and_click_next(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3565474200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Signin",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_Signin()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-16T10:48:53.637Z",
+        "line": 10,
+        "name": "Composing mail with valid credential",
+        "description": "",
+        "id": "login;composing-mail-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2192134400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User launch Chrome Browser",
+            "match": {
+              "location": "stepDefinitions.Steps.user_launch_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1850028000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Opens URL \"https://outlook.office.com/mail/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://outlook.office.com/mail/\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_Opens_URL(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3231144700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Enters Email as \"sender01togo@outlook.com\" and click next",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sender01togo@outlook.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_Enters_Email_as_and_click_next(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3113671700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user Enters Password as \"Sender@4321\" and click next",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sender@4321\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_Enters_Password_as_and_click_next(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3410877200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click the Signin",
+            "match": {
+              "location": "stepDefinitions.Steps.click_the_Signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2161218200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Click on New Message",
+            "match": {
+              "location": "stepDefinitions.Steps.user_Click_on_New_Message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4982675000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Enter the mail",
+            "match": {
+              "location": "stepDefinitions.Steps.enter_the_mail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 261300000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on send",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_send()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:Features/Login.feature",
+    "tags": []
+  }
+]
